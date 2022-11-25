@@ -1,0 +1,9 @@
+list=[1,3,5,7,9,2,4,6,8]
+sum=0
+for i in list:
+    if(i%2==0):
+        sum=sum+i
+print('\nSum of even numbers is:',sum)
+
+OUTPUT
+sum of even numbers is:20
